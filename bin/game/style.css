@@ -1,0 +1,49 @@
+#background {
+	-fx-background-image: url("file:/C:/Users/Duong/eclipse-workspace/animal_chess-master/image/background.png");
+	-fx-background-repeat: no-repeat;
+  	-fx-background-size: 100%;
+}
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-size: 45px;
+    -fx-text-fill: #412913;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.85;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.button:focused {
+    
+}
+
+.button:pressed {
+	-fx-text-fill: #f7f7f7;
+    -fx-opacity: 1.0;
+}
+
+.button:hover {
+	-fx-cursor: hand;
+}
+
+#levelSelectPane {
+	-fx-background-image: url("file:/C:/Users/Duong/eclipse-workspace/animal_chess-master/image/LevelSelect.png");
+	-fx-background-repeat: no-repeat;
+  	-fx-background-size: 100%;
+}
+
+.levelButton {
+	-fx-opacity: 1.0;
+	-fx-font-size: 35px;
+	-fx-background-radius: 50px;
+}
+
+#map {
+	-fx-background-image: url("file:/C:/Users/Duong/eclipse-workspace/animal_chess-master/image/map.png");
+}
+
+.mainGameBackground{
+	-fx-background-image: url("file:/C:/Users/Duong/eclipse-workspace/animal_chess-master/image/background2.jpg");
+}
